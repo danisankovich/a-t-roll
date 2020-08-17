@@ -1,0 +1,19 @@
+.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+ .navbar, .nav-item, .bg-light, .navbar-collapse, #header-top {
+   background-color: white !important;
+ }
+
+#header-top {}
+
+
+.nav-item {
+  font-size: 24px;
+}
+
+.nav-item .nav-link {
+  color: black;
+}

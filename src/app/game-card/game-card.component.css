@@ -1,0 +1,22 @@
+.game-card {
+  margin-top: 30px;
+  padding: 0 18px 18px 18px;
+  height: 280px;
+}
+
+.image-holder {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+
+}
+.game-icon {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+.card-text {
+  font-size: 18px;
+}
