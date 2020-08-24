@@ -1,0 +1,38 @@
+.outer-container {
+    width: 100%;
+    width: 100%;
+}
+
+.grid-container {
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 50%;
+    width: 70%;
+    max-height: 800px;
+    max-width: 800px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.grid-row {
+    margin-bottom: -5px;
+}
+.grid-row:last-child {
+    margin-bottom: 20px;
+}
+
+.grid-cell {
+    display: inline-block;
+}
+
+.grid-cell:last-child {
+    margin-right: 20px;
+}
+
+.zoom-button {
+    border: 1px solid black;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}

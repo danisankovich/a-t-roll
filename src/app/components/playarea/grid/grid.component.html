@@ -1,0 +1,21 @@
+<div class="outer-container">
+    <div class="zoom-button" (click)="changeZoom('+')">+</div>
+    <div class="zoom-button" (click)="changeZoom('-')">-</div>
+
+    <div
+        class="grid-container"
+        [ngStyle]="{ 'background-color': gridOptions.gridBackgroundColor }">>
+        <div *ngFor="let row of gridHeight" class="grid-row">
+            <div
+                *ngFor="let column of gridWidth"
+                class="grid-cell"
+                [ngStyle]="{
+                    'width.px': cellSize - 2,
+                    'height.px': cellSize - 2,
+                    'border': border
+                }">
+            </div>
+        </div>
+    </div>
+
+</div>
